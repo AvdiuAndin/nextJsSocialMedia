@@ -23,7 +23,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Make sure to start the Strapi server on port 1337
+Make sure to start the [https://github.com/AvdiuAndin/strapiSocialMedia](Strapi server) on port 1337
 The application environment variables are static(hard coded)
 
 This application implements all the features mentioned above.
