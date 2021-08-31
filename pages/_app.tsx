@@ -33,7 +33,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       const path = url.split('?')[0];
 
       if (!isUserAuthenticated() && !publicPaths.includes(path)) {
-          console.log("set auth false");
           setAuthorized(false);
           router.push({
               pathname: '/'

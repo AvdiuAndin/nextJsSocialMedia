@@ -11,7 +11,6 @@ export default function Profile() {
     useEffect(() => {
         async function getData() {
             let user = await getProfileOfUserById(id);
-            console.log("user is ", user);
             setUser(user);
         }
         getData();
